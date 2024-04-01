@@ -16,11 +16,11 @@ export interface PricingPlans {
 export enum PlanName {
   BASIC = 'Basic',
   PRO = 'Professional',
-  ENTERPRISE = 'Enterprise',
+  PREMIUM = 'Premium',
 }
 
 export const iconMap = {
   [PlanName.BASIC]: 'leaf',
   [PlanName.PRO]: 'rocket',
-  [PlanName.ENTERPRISE]: 'bolt',
+  [PlanName.PREMIUM]: 'thunder',
 };
