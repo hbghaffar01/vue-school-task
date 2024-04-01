@@ -135,7 +135,7 @@ const staticsData = computed(() => [
 
 @media screen and (min-width: 1280px) {
   .about-bg-image2 {
-    background-image: url("/images/backgrounds/bg-wave-2.svg"),
+    background-image: url("/images/backgrounds/wave-2.svg"),
       linear-gradient(to bottom, transparent, #212436 60%);
     background-position: top;
     background-blend-mode: hue;
@@ -144,7 +144,7 @@ const staticsData = computed(() => [
 
 @media screen and (max-width: 1280px) {
   .about-bg-image2 {
-    background-image: url("/images/backgrounds/bg-wave-2-md.svg"),
+    background-image: url("/images/backgrounds/wave-3.svg"),
       linear-gradient(to bottom, transparent, #212436 60%);
     background-position: center 1rem;
     background-blend-mode: hue;
