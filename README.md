@@ -58,4 +58,4 @@ pnpm run dev
 - step-by-step instructions on tasks:
 
 - Whole content on Hero, lessons, courses, hours, and pricing card bullet points is dynamic when changed from the sanity build it reflect change on deployed site also.
-- I had used three schema Hero, Statics, Lesson in which admin can update the data for the content in website
+- I had used three schema Hero, Statics, Lesson in which admin can update the data for the content in website.

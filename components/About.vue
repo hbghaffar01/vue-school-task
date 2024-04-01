@@ -76,7 +76,7 @@ interface About {
 
 const about_data = ref();
 
-const query = groq`*[_type == "stat"][0]{ lessons, courses, hours }`;
+const query = groq`*[_type == "statics"][0]{ lessons, courses, hours }`;
 const about = groq`*[_type == "hero"][0]{ ..., about, description }`;
 const getAbout = async () => {
   const { data, error } = await useSanityQuery<About>(about);

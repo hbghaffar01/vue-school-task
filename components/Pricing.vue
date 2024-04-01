@@ -32,7 +32,7 @@
 <script setup lang="ts">
 import PricingCard from "./ui-components/PricingCard.vue";
 
-const query = groq`*[_type == "pricing"][0]{pricing_plans[]{plan_name, plan_details}}`;
+const query = groq`*[_type == "price"][0]{pricing_plans[]{plan_name, plan_details}}`;
 const { data, error } = await useSanityQuery<PricingPlans>(query);
 
 if (error.value) {
